@@ -1,6 +1,0 @@
-# Example of stages list for trigger action
-stages:
-  - name: stage1
-    tasks:
-      - task1
-      - task2

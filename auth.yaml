@@ -1,5 +1,0 @@
-# Jenkins connection configuration
-jenkins:
-  url: "http://jenkins.example.com"
-  username: "admin"
-  password: "admin"
