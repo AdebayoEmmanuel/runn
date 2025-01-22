@@ -60,12 +60,8 @@ The `devops_jenkins.py` module defines the `DevOpsJenkins` class, which handles 
 
 - `execute(self)`: Executes the Jenkins job.
 
-#### Job Options:
-- `install`: Installs the necessary components.
-- `rollback`: Rolls back to a previous state.
-- `stages`: Defines the stages of the Jenkins job.
 
 #### Run Arguments:
-- `--config <config>`: Specifies the configuration file for the Jenkins job.
+- `--config <config>`: Specifies the configuration file for the  job.
 - `--job <job>`: Specifies the Jenkins job to run.
-- `--params <params>`: Specifies additional parameters for the Jenkins job.
+- `--params <params>`: Specifies additional parameters for the job.
