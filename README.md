@@ -50,9 +50,6 @@ python start.py validate \
   --resume no \
   --git true
 ```
-
-## Detailed Logic
-
 ### start.py
 
 The `start.py` script is the entry point of the project. It performs the following tasks:
