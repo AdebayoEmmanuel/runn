@@ -2,7 +2,6 @@
 
 import argparse
 import sys
-import yaml
 from utils import logging_info, logging_error
 from devops_jenkins import DevOpsJenkins
 
