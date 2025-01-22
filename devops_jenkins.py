@@ -6,11 +6,12 @@ class DevOpsJenkins:
 
     def validate_inputs(self):
         logging_info("Validating inputs...")
-        # Check if each argument is a non-empty string and print key:value
+        # Convert all values to strings and check if they are non-empty
         params = vars(self.args)
         for key, value in params.items():
-            if isinstance(value, str) and value.strip():
-                print(f"{key}: {value}")
+            value_str = str(value).strip()
+            if value_str:
+                print(f"{key}: {value_str}")
             else:
                 print(f"{key}: Invalid value")
 
