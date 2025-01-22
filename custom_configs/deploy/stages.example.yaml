@@ -1,0 +1,6 @@
+# Example of stages list for deploy action
+stages:
+  - name: stage1
+    tasks:
+      - task1
+      - task2

@@ -1,0 +1,5 @@
+# Resources, taken from scs-jenkins-library repo and used for input validations
+us-east-1: "use1"
+eu-west-1: "euw1"
+ap-southeast-1: "apse1"
+common: "usw2"

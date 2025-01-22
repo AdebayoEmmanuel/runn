@@ -1,0 +1,4 @@
+# Additional resource file used for input validations
+regions:
+  - region1
+  - region2
