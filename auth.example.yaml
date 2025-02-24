@@ -1,0 +1,7 @@
+git:
+    repo_url: https://gitlab.com/sample-work/iac.git
+    repo_token: 
+
+project:
+    project_id: 
+    pipeline_id: 

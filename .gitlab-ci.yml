@@ -1,0 +1,24 @@
+# Trigger the pipeline only on push events
+workflow:
+  rules:
+    - if: '$CI_PIPELINE_SOURCE == "push"'
+
+stages:
+  - stage1
+  - stage2
+  - stage3
+
+stage1_job:
+  stage: stage1
+  script:
+    - echo "I am stage 1"
+
+stage2_job:
+  stage: stage2
+  script:
+    - echo "I am stage 2"
+
+stage3_job:
+  stage: stage3
+  script:
+    - echo "I am stage 3"
