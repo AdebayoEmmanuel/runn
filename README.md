@@ -33,9 +33,9 @@ pip install pyyaml
 
 The script uses subcommands and requires several arguments. The general syntax is:
 
-\`\`\`bash
+```bash
 python start.py <subcommand> --action ACTION --env ENV --reg REG --stages STAGES --override OVERRIDE --token TOKEN --resume RESUME --git GIT
-\`\`\`
+```
 
 ### Example
 
