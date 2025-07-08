@@ -2,14 +2,14 @@
 
 ## File Structure
 
-\`\`\`
+```
 project/
 ├── start.py
 ├── utils.py
 ├── devops_jenkins.py
 ├── srv_region.yaml
 └── region_abbreviations.yaml
-\`\`\`
+```
 
 ## Instructions
 
